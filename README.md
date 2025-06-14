@@ -1,16 +1,24 @@
-# myapp
+## FINANCIAMENTO - JUROS
+Feito no dia 06/06/2025
+### Descrição do projeto
+O Simulador de Financiamento é uma ferramenta intuitiva projetada para auxiliar usuários a planejar a compra de bens financiados, como veículos, imóveis ou eletrodomésticos. Ele permite que o usuário insira o valor desejado para o financiamento, a taxa de juros mensal aplicável, o número de parcelas pretendidas e quaisquer taxas ou custos adicionais envolvidos.
 
-A new Flutter project.
+Após a inserção dos dados, o aplicativo realiza os cálculos necessários e exibe de forma clara e objetiva o valor total a ser pago (montante final do financiamento) e o valor de cada parcela. Isso proporciona uma visão abrangente do compromisso financeiro, capacitando o usuário a tomar decisões mais informadas e a planejar seu orçamento de forma eficaz.
 
-## Getting Started
+### Tecnologias Utilizadas:
+- Flutter
+- Dart
+- vsCode
+- Firebase Studio
 
-This project is a starting point for a Flutter application.
+### Print
+![Financ 0](finan.png)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Como executar: 
+- Clone este repositório
+- Abra com VsCode ou Android Studio, com um terminal instale as dependências e execute no emulador ou navegador
+```bash
+flutter pub get
+flutter run
+```
